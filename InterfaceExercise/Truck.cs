@@ -11,6 +11,23 @@ namespace InterfaceExercise
         public int NumberOfDoors { get; set; } = 2;
         public string Logo { get; set; } = "Tesla";
         public bool ForeignBrand { get; set; } = false;
+        public bool HasFourWheelDrive { get; set; } = true;
 
+        public void Drive()
+        {
+            Console.WriteLine($"{GetType().Name} now driving forward. . .");
+        }
+        public void Reverse()
+        {
+            Console.WriteLine();
+        }
+        public void ChangeGears(bool isChanged)
+        {
+            HasChangedGears = isChanged;
+        }
+        public void Park()
+        {
+            Console.WriteLine();
+        }
     }
 }

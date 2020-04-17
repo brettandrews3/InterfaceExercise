@@ -8,7 +8,7 @@ namespace InterfaceExercise
         {
             Car honda = new Car()
             {
-                return honda.FuelPowered;
+                
             }
         }
     }
