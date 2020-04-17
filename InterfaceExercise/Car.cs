@@ -4,7 +4,12 @@ namespace InterfaceExercise
     public class Car : IVehicle, ICompany
     
     {
-        public string TrunkType { get; set; } = "lifted";
+        public string TrunkType { get; set; } = "hydraulic";
         public int NumberOfDoors { get; set; } = 4;
+        public int NumberOfWheels { get; set; } = 4;
+        public string VehicleName { get; set; } = "Lexus";
+        public bool FuelPowered { get; set; } = true;
+        string ICompany.Logo { get; set; } = "Angled L";
+        bool ICompany.ForeignBrand { get; set; } = true;
     }
 }

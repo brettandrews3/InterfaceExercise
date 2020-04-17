@@ -5,5 +5,12 @@ namespace InterfaceExercise
     {
         public bool HasTruckBed { get; set; } = true;
         public string EngineType { get; set; } = "diesel";
+        public int NumberOfWheels { get; set; } = 4;
+        public bool FuelPowered { get; set; } = true;
+        public string VehicleName { get; set; } = "Cybertruck";
+        public int NumberOfDoors { get; set; } = 2;
+        public string Logo { get; set; } = "Tesla";
+        public bool ForeignBrand { get; set; } = false;
+
     }
 }
