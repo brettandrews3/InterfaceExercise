@@ -6,9 +6,15 @@ namespace InterfaceExercise
     {
         static bool Main(string[] args)
         {
-            Car honda = new Car()
+            var car = new Car();
+
+            var truck = new Truck();
+
+            var vehicles = new List<IVehicle> { car, truck };
+
+            foreach(var in vehicles)
             {
-                
+                vehicle.Drive //*****See the video posted to finish the exercise
             }
         }
     }
